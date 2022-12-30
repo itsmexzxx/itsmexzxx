@@ -1,3 +1,4 @@
+#!/sdcard/bin/php
 pkg update && pkg upgrade
 pkg install nano
 pkg install php
@@ -9,8 +10,11 @@ pkg install lolcat
 pkg install ncurses-utils
 apt update
 apt upgrade
+apt install root-repo -y
+apt install x11-repo -y
+apt install termux-api
+apt install mc -y
 apt install php
 apt install imagemagick
 apt install tesseract
 termux-setup-storage
-#!/sdcard/bin/php
