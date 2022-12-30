@@ -1,0 +1,16 @@
+pkg update && pkg upgrade
+pkg install nano
+pkg install php
+pkg install git 
+pkg install toilet
+pkg install figlet
+pkg install ruby
+pkg install lolcat
+pkg install ncurses-utils
+apt update
+apt upgrade
+apt install php
+apt install imagemagick
+apt install tesseract
+termux-setup-storage
+#!/sdcard/bin/php
